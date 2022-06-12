@@ -73,19 +73,19 @@
   </build>
  <repositories>
     <repository>
-      <id>maven-group</id>
-      <url>http://52.90.76.177:8081/repository/maven-group/</url>
+      <id>mymaven-group</id>
+      <url>http://52.90.76.177:8081/repository/mymaven-group/</url>
     </repository>
   </repositories>
 
     <distributionManagement>
     <snapshotRepository>
-      <id>maven-snapshots</id>
-      <url>http://52.90.76.177:8081/repository/maven-snapshots/</url>
+      <id>mymaven-snapshots</id>
+      <url>http://52.90.76.177:8081/repository/mymaven-snapshots/</url>
     </snapshotRepository>
     <repository>
-      <id>maven-releases</id>
-      <url>http://52.90.76.177:8081/repository/maven-releases/</url>
+      <id>mymaven-releases</id>
+      <url>http://52.90.76.177:8081/repository/mymaven-releases/</url>
     </repository>
   </distributionManagement>
 </project>
